@@ -52,7 +52,7 @@ chmod 755 RM/mutation.sh
 ...
 ./runner.sh motivation.c 7
 
-
+Only 7 Op's were open-sourced for testing.
 ``` 
 
 <br />
