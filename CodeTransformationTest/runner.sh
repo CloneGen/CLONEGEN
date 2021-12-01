@@ -11,6 +11,8 @@ function main(){
     mv Mutated.c ../Mutated.c || cp $file ../Mutated.c   
     rm -rf $file 
     cd ..
+    echo "[+] result..."
+    cat Mutated.c
 }
 
 

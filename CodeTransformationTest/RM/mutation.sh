@@ -25,24 +25,24 @@ COUNTRESULTPATH="../CountResult/"
             echo "txl -l  -q -s 128  temp00.c $TXLCODEPATH"1ChangeRename.ctxl" > temp1.c"
             txl -l  -q -s 128  temp00.c $TXLCODEPATH"1ChangeRename.ctxl" > temp1.c  
             ;;
-        # 2)
-        #     txl -l  -q -s 128  temp00.c $TXLCODEPATH"2A3ChangeCompoundForAndWhile.ctxl" > temp1.c
-        #     ;;
-        # 3)
-        #     txl -l  -q -s 128  temp00.c $TXLCODEPATH"2A3ChangeCompoundForAndWhile.ctxl" > temp1.c
-        #     ;;
-        # 4)
-        #     txl -l  -q -s 128  temp00.c $TXLCODEPATH"4changeCompoundDoWhile.ctxl" > temp1.c
-        #     ;;
-        # 5)
-        #     txl -l  -q -s 128  temp00.c $TXLCODEPATH"5A6changeCompoundIf.ctxl" > temp1.c
-        #     ;;
-        # 6)
-        #     txl -l  -q -s 128  temp00.c $TXLCODEPATH"5A6changeCompoundIf.ctxl" > temp1.c 
-        #     ;;
-        # 7)
-        #     txl -l  -q -s 128  temp00.c $TXLCODEPATH"7changeCompoundSwitch.ctxl" > temp1.c
-        #     ;;
+        2)
+            txl -l  -q -s 128  temp00.c $TXLCODEPATH"2A3ChangeCompoundForAndWhile.ctxl" > temp1.c
+            ;;
+        3)
+            txl -l  -q -s 128  temp00.c $TXLCODEPATH"2A3ChangeCompoundForAndWhile.ctxl" > temp1.c
+            ;;
+        4)
+            txl -l  -q -s 128  temp00.c $TXLCODEPATH"4changeCompoundDoWhile.ctxl" > temp1.c
+            ;;
+        5)
+            txl -l  -q -s 128  temp00.c $TXLCODEPATH"5A6changeCompoundIf.ctxl" > temp1.c
+            ;;
+        6)
+            txl -l  -q -s 128  temp00.c $TXLCODEPATH"5A6changeCompoundIf.ctxl" > temp1.c 
+            ;;
+        7)
+            txl -l  -q -s 128  temp00.c $TXLCODEPATH"7changeCompoundSwitch.ctxl" > temp1.c
+            ;;
         # 8)
         #     txl -l  -q -s 128  temp00.c $TXLCODEPATH"8changeCompoundLogicalOperator.ctxl" > temp1.c 
         #     ;;

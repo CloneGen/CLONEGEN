@@ -13,12 +13,29 @@ torch=1.9.1
 
 torchvision=0.7.0+cu101
 
+TXL=v10.8 (7.5.20)
+
 GPU with CUDA support is also needed
 
 ```
 
 # How to install
-Please refer to: [Txl](https://www.txl.ca/), [Torch](https://pytorch.org/)
+
+```shell
+[Torch](https://pytorch.org/)
+
+git clone https://github.com/CloneGen/CLONEGEN.git
+
+Txl:
+
+tar -zxf 17867-txl10.8a.linux64.tar.gz
+
+cd txl10.8a.linux64/
+
+./InstallTxl
+
+
+```
 
 # Dataset
 CloneGen.tar.gz is the data corresponding to the four strategies in the paper.
@@ -26,6 +43,12 @@ CloneGen.tar.gz is the data corresponding to the four strategies in the paper.
 # Test Demo, For a simple test,
 ```shell
 cd CodeTransformationTest
+
+chmod 755 runner.sh
+
+chmod 755 RM/mutation.sh
+
+
 
 # run: ./runner.sh  testfile.c  action
 ./runner.sh motivation.c 1
