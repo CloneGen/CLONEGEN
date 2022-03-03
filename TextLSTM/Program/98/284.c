@@ -1,0 +1,22 @@
+int main () {
+    int n, sum = 0;
+    char word [41] = {0};
+    char *p = word;
+    cin >> n;
+    cin >> p;
+    sum += strlen (p);
+    cout << p;
+    for (int i = 1;
+    i < n; i++) {
+        cin >> p;
+        sum += strlen (p) + 1;
+        if (sum > 80) {
+            cout << endl << p;
+            sum = strlen (p);
+        }
+        else
+            cout << ' ' << p;
+    }
+    return 0;
+}
+
